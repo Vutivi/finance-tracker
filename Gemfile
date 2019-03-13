@@ -33,6 +33,14 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Use divise for authentication
+gem 'devise'
+
+# use devise bootstrap views
+gem 'devise-bootstrap-views'
+# use twitter bootstrap rails for views
+gem 'twitter-bootstrap-rails'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
